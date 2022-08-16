@@ -15,11 +15,14 @@ function rickRoll() {
 
         <img src="https://c.tenor.com/vAKMpuhMcrwAAAAd/dancing-pingu.gif" width="300px"> 
         
-        <audio autoplay replay>
-            <source src="./res/rick.mp3" type="audio/mpeg">
-        </audio> 
+        <span id="hiddenRickIframe">
         
-        <br > É PRA ISSO QUE APRENDO JAVASCRIPT!`;
+        <h1>  É PRA ISSO QUE APRENDO JAVASCRIPT! </h1>
+        <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1242868615&color=%237c6490&auto_play=true&hide_related=false&show_comments=true&show_user=false&show_reposts=false&show_teaser=false"></iframe>
+
+        </span>
+        
+        <br >`;
 
         document.body.style = 'background-image: url("./img/rick.gif")';
 
