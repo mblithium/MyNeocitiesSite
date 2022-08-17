@@ -3,10 +3,14 @@ const mYearsOld = todayYear - 2000;
 const rickAstley = document.querySelector("#hiddenRick");
 const menus = document.querySelectorAll(".m_item");
 menus.forEach(elem => elem.addEventListener("click", rickRoll));
+menus.forEach(function (elem) {
+    let alink = elem.querySelector("a");
+    if (alink.attributes.href.nodeValue == "#") {
+        alink.title = "Oops, sem página ainda.";
+    }
+})
 
 let hasRick = false;
-
-console.log(menus)
 
 function rickRoll() {
     if (!hasRick) {
@@ -29,7 +33,7 @@ function rickRoll() {
         hasRick = true;
     }
 }
-// const psobre = document.querySelector("#psobre");
-// psobre.innerText = psobre.innerText.replace("(2000 - yearNow)", mYearsOld);
+const psobre = document.querySelector("#psobreApr");
+psobre.innerText = psobre.innerText.replace("#minha_idade", mYearsOld);
 
 

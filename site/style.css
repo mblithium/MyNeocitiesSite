@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap');
 
 :root {
     --maxwdth: 900px;
@@ -6,12 +7,17 @@
     --text-link-color: rgb(29, 27, 27);
 }
 
+a {
+    color: var(--text-color);
+    text-decoration: underline;
+}
+
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     background-color: #5B4473;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'JetBrains Mono', monospace;;
     font-weight: 400;
 }
 header {
@@ -36,7 +42,7 @@ main {
 
 main section {
     margin: 2px;
-    padding: 10px;
+    padding: 45px;
     text-align: justify;
 }
 
@@ -46,23 +52,27 @@ main section h1 {
 
 nav {
     width: 100%;
-    display: block;
-    padding: 5px;
+    display: inline-block;
+    padding: 5px 0;
+    text-align: center;
+    background-color: #7D38C2;
 }
 
 nav div.m_item {
-    width: 100px;
+    min-width: 100px;
+    width: auto;
     height: 30px;
-    background-color: #7D38C2;
+    /*background-color: #7D38C2;*/
     display: inline-block;
     margin: 2px 1px;
-    padding: 6px;
+    padding: 10px;
     text-align: center;
 }
 
 nav div.m_item:hover {
-    background-color: #9e66d6;
+    background-color: #8042be;
     color: white;
+    border-radius: 5px;
 }
 
 nav div.m_item a {
@@ -90,3 +100,21 @@ ul li {
 #hiddenRickIframe {
     display: none;
 }*/
+
+section {
+    display: inline-block;
+
+}
+
+footer {
+    position: relative;
+    margin: 30px auto;
+    padding: 10px;
+    color: rgb(167, 167, 167);
+    background-color: #7d38c2;
+    text-align: center;
+}
+
+footer a {
+    color: rgb(177, 177, 177);
+}
