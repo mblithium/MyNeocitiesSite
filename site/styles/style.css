@@ -19,7 +19,10 @@ body {
     background-color: #5B4473;
     font-family: 'JetBrains Mono', monospace;;
     font-weight: 400;
+    background-repeat: repeat;
+    background-position: center;
 }
+
 header {
     position: relative;
     background-color: #9C46F2;
@@ -27,7 +30,7 @@ header {
     max-width: var(--maxwdth);
     max-height: 400px;
     margin: 0 auto;
-    background-image: url("./img/banner.png");
+    background-image: url("../img/banner.png");
     background-position: center;
 }
 
@@ -42,7 +45,7 @@ main {
 
 main section {
     margin: 2px;
-    padding: 45px;
+    padding: 25px;
     text-align: justify;
 }
 
