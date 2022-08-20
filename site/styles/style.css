@@ -89,7 +89,7 @@ nav div.m_item a:hover {
 
 ul {
     list-style-type: square;
-    padding-right: 50px;
+    padding: 0 20px;
 }
 
 ul li {
