@@ -38,12 +38,3 @@ psobre.innerText = psobre.innerText.replace("#minha_idade", mYearsOld);
 
 
 const testeArea = document.querySelector("#principal");
-
-async function convertTeste() {
-    let converter = new showdown.Converter();
-    let md = await fetch('./posts/teste.md').then((response) =>  response.text()).then((conv) => conv);
-    console.log(md)
-    let convText = converter.makeHtml(md);
-    console.log(convText)
-    testeArea.innerHTML = convText;
-}
