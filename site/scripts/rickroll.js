@@ -26,3 +26,10 @@ function rickRoll() {
         hasRick = true;
     }
 }
+
+function activeRick() {
+    if (hasRick) {
+        hasRick = false;
+        rickRoll();
+    }
+}
