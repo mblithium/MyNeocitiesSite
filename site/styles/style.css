@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Noto Sans');
 
 :root {
-    --maxwdth: 900px;
+    --maxwdth: 1000px;
     --minwdth: 320px;
     --text-color: black;
     --text-link-color: rgb(29, 27, 27);
@@ -11,6 +11,16 @@
 a {
     color: var(--text-color);
     text-decoration: underline;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+h2 {
+    font-size: 1.10rem;
+}
+h3 {
+    font-size: 0.5rem;
 }
 
 body {
@@ -91,10 +101,12 @@ nav div.m_item a:hover {
 ul {
     list-style-type: square;
     padding: 0 20px;
+    text-align: left;
 }
 
 ul li {
     padding-bottom: 8px;
+    text-align: left;
 }
 
 #hiddenRick {
@@ -107,7 +119,11 @@ ul li {
 
 section {
     display: inline-block;
+}
 
+article #principal {
+    display: inline-block;
+    position: relative;
 }
 
 footer {
