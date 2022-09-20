@@ -13,6 +13,7 @@
         
     </header>
     <main>
+        <a name="up"></a>
         <nav>
             <div class="m_item">
                 <a href="../index.html">Home</a>
@@ -38,17 +39,45 @@
             <article id="devtools">
                 <h1>Ferramentas para desenvolvedores</h1>
                 <p>Aqui irei listar uma série de ferramentas gratuitas para desenvolvedores e designers.</p>
+                <h1>Índice</h1>
                 <ul>
-                    <li>Editores de Código</li>
-                    <li>Bibliotecas</li>
+                    <li><a href="#ParaDevs">Para Desenvolvedores</a></li>
+                        <ul>
+                            <li>
+                                <a href="#ParaDevs_Host_Deploy">Hospedagem e Deploy</a>
+                            </li>
+                        </ul>
                     <li><a href="#ParaDesigners">Para Designers</a></li>
+                        <ul>
+                            <li><a href="#ParaDesigners_ProtipTools">Ferramenta e prototipagem.</a></li>
+                        </ul>
+                </ul>
+
+                <a name="ParaDevs"></a>
+                <h1>Para desenvolvedores</h1>
+
+                <a name="ParaDevs_Code_Editor"></a>
+                <h2>Editores de Código</h2>
+                <ul>
+                    <li><strong><a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a></strong>: Editor de código multiplataforma, criado pela Microsoft, desenvolvido com tecnologias web e servido com electron. Considero o editor definitivo, tem praticamente tudo, desde intelisense, git integrado, extensões e até debug de código, quase como uma IDE, apesar de dizer ser só um editor de código, recomendado para scripts e desenvolvimento web. Só por menção, existe um fork open source chamado "vscodium" que não inclui as telemetrias ou serviços integrados da microsoft, para quem não quer e não precisa disso.</li>
+                </ul>
+
+                <a name="ParaDevs_Host_Deploy"></a>
+                <h2>Hospedagem e Deploy</h2>
+                <ul>
+                    <li><strong><a href="https://www.netlify.com/" target="_blank">Netlify</a></strong>: plataforma de deploy e hospedagem. Possui um plano gratuito com: Deploy global, live preview com interface para colaboração para um time, rollback de qualquer versão anterior, deploy de assets estáticos e funções dinâmicas sem servidor.</li>
+                    <li><strong><a href="https://pages.github.com/" target="_blank">Github Pages</a></strong>: Hospedagem estática do Github. Suporta apenas páginas com html, css e javascript. Por ser estática, não suporta aplicações que rodam do lado do servidor, como nodejs, php, ruby on rails, MySQL ou qualquer servidor do tipo.</li>
+                    <li><strong><a href="https://neocities.org/" target="_blank">Neocities</a></strong>: Com ideia parecida do antigo "geocities", onde seria uma comunidade com páginas que se pode seguir, com atualizações que aparecem em um mural global, oferece hospedagem de páginas estáticas com 1GB de espaço, tags e busca. Além disso, ele é open source e seu código pode ser acessado em um repositório no github.</li>
                 </ul>
 
                 <a name="ParaDesigners"></a>
                 <h1>Para Designers</h1>
+
+                <a name="ParaDesigners_ProtipTools"></a>
                 <h2>Ferramentas de prototipagem</h2>
                 <ul>
                     <li><strong><a href="https://www.figma.com/" target="_blank">Figma</a></strong>: Uma ferramenta web para criar protótipos de interfaces, com templates de telas, componentes e apresentação interativa. Também é possível editar online com uma equipe na versão paga.</li>
+                    <li><strong><a href="https://penpot.app/" target="_blank">Penpot</a></strong>: Segundo ele, a primeira plataforma open source de prototipagem e design, que trabalha com padrões web (SVG). Faz praticamente a mesma coisa que o figma, mas é completamente aberto e te dá controle sobre o seu arquivo/projeto, que é realmente seu.</li>
                 </ul>
                 <h2>Combinação de Cores</h2>
                 <ul>
@@ -65,5 +94,8 @@
         
     </main>  
     
+    <div id="back-to-top-btn">
+        <p><a href="#up" title="Back to up">UP</a></p>
+    </div>
   </body>
 </html>
